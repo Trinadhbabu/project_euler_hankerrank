@@ -6,13 +6,6 @@ Created on Thu Apr 16 09:44:42 2020
 @author: Trinadh.Singaladevi
 """
 import timeit
-start = timeit.default_timer()
-sum = 0
-for i in range(1000000):
-    if i % 3==0 or i %5==0:
-        sum+=i
-print(sum)
-print(timeit.default_timer()-start)
 
 #Method - 2
 
